@@ -1,0 +1,25 @@
+.form input[type='text']{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #f16051;
+  margin: 4px;
+  color: #fff;
+  width: 30%;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+::placeholder{
+  color: rgba(209,209,209,.9);
+}
+
+button{
+  background-color: rgb(255, 15, 15);
+  border: 0;
+  padding: 6px 12px;
+  color: #fff;
+  font-size: 16px
+}
+button:hover{
+  transform: scale(1.1);
+}

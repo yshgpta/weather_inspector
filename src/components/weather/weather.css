@@ -1,0 +1,97 @@
+.main-block-city{
+  position: absolute;
+  width: 33%;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+  color: rgba(217,217,217,.9);
+}
+
+.main-block-city .city{
+  font-family: dosis;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.main-block-city .location{
+  font-family: dosis;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.main-block-city .country{
+  font-family: dosis;
+  font-size: 2rem;
+}
+
+.main-block-temp{
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: rgba(166,166,166,.75);
+}
+
+.col33{
+   width: 33%;
+   display: inline-block;
+ }
+
+.col66{
+   width: 66%;
+   display: inline-block;
+ }
+
+ .col66-30{
+   width: 30%;
+   display: inline-block;
+   margin:auto;
+   padding: auto;
+ }
+
+ .col66-70{
+   width: 70%;
+   display: inline-block;
+   margin:auto;
+   padding: auto;
+ }
+
+ .col66-70 .description{
+   font-size: 8rem;
+   text-transform: capitalize;
+ }
+
+ .col66-30 .others{
+   font-size: 2rem;
+   margin-top: 15px;
+ }
+
+.main-block-temp .temp{
+  font-family: Roboto;
+  font-size: 13rem;
+  left: 10px;
+  position: relative;
+}
+
+.main-block-temp .degree{
+  position: absolute;
+  font-size: 4rem;
+  transform: translateY(10px);
+}
+
+.main-block-temp .celsius{
+  position: absolute;
+  transform: translateX(20px);
+}
+
+
+
+.main-block-error{
+  position: absolute;
+  margin: 100px 30px;
+  color: #fff;
+  font-size: 2rem;
+  bottom: 48%;
+  right: 40%;
+}
